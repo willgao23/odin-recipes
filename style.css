@@ -14,9 +14,8 @@
     margin-right: auto;
 }
 
-.text{
+.text {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
 }
 
 .title {
@@ -24,18 +23,20 @@
     font-size: 36px;
     font-weight: bold;
     background-color: rgb(255, 225, 89);
+    text-align: center;
+}
+
+.list{
+    list-style-position: inside;
 }
 
 .list.main {
-    list-style-position: inside;
     font-size: 20px;
+    text-align: center;
 }
 
 .home {
     background-color: rgb(255, 225, 89);
 }
 
-.text.body{
-    text-align:center;
-    
-}
+
